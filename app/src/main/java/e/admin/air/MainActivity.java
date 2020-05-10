@@ -22,14 +22,14 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView mTextViewResult;
+    //private TextView mTextViewResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTextViewResult = findViewById(R.id.address);
+       /* mTextViewResult = findViewById(R.id.address);
 
         OkHttpClient client = new OkHttpClient();
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     });
                 }
             }
-        });
+        });*/
 
        /* OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
